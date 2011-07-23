@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="./modx.prosilver.en.xsl"?>
+<?xml-stylesheet type="text/xsl" href="modx.prosilver.en.xsl"?>
 <!-- 
 	NOTICE: Please open this file in your web browser. If presented with a security warning, you may safely tell it to allow the blocked content.
 -->
@@ -8,12 +8,12 @@
 	<header>
 		<license>http://opensource.org/licenses/gpl-license.php GNU General Public License v2</license>
 		<title lang="pl">Prime Trash Bin</title>
-		<description lang="pl">Allows topics and posts to be kept when they are deleted so that they can be reviewed before being permanently deleted (or undeleted). Also, provides the ability to enter a reason for the deletion, and allows deleted topics to be moved to a specified Trash Bin forum. These deleted topics and posts can be viewed, undeleted, or permanently deleted by those with the proper permissions. Permanent deletion will occur when deleting topics in the Trash Bin forum or topics and posts that have already been marked as deleted.</description>
-	    <author-notes lang="en">The deletion options are set from the "Board Settings" section of the Administration Control. 
+		<description lang="pl">Mod pozwala na schowanie tematów i postów, przed ich dokładnym przejrzeniem i trwałym usunięciem (albo przywróceniem). Daje też możliwość określenia powodu usunięcia oraz przenoszenia usuwanych tematów do specjalnego forum kosza. Tematy te mogą zostać przejrzane, przywrócone, bądź trwale usunięte w przypadku posiadania odpowiednich uprawnień. Do trwałego usuwania tematów dochodzi podczas usuwania ich w forum koszu lub kiedy temat lub post jest oznaczony jako usunięty.</description>
+	    <author-notes lang="pl">Opcje usuwania mogą zostać zmienione w "Ustawieniach witryny" w panelu administracji.
 
-Support is given for both prosilver and subsilver2 templates. If you are using other templates then you will need to modify the template instructions to fit your templates.
+Mod wspiera zarówno styl prosilver, jak i styl subsilver2. W przypadku używania innego stylu trzeba zmodyfikować jego pliki samodzielnie, bazując na instrukcjach dla wspomnianych wcześniej stylów.
 
-Creating, maintaining, and updating MODs requires a lot of time and effort, so if you like this MOD and have the desire to express your thanks through donations, that would be greatly appreciated. My Paypal ID is primehalo@gmail.com, or contact me for my mailing address. The suggested donation amount for this MOD is $20.00 (but any amount will help).</author-notes>
+Tworzenie, aktualizowanie i poprawianie modów wymaga wiele czasu i wysiłku, dlatego jeżeli podoba Ci się ten mod i chcesz wyrazić swoje podziękowanie, mile widziane będą wszelkiego rodzaju dotacje. Mój identyfikator Paypal oraz adres kontaktowy to primehalo@gmail.com. Sugerowana dotacje dla tego moda wynosi $20.00 (ale każda suma jest pomocna).</author-notes>
 		<author-group>
 			<author>
 				<realname>Dariusz Maciejewski</realname>
