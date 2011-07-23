@@ -20,9 +20,9 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'ACP_STATS_INFO'							=> 'phpBB Statistics',
-	'ACP_STATS_GENERAL_INFO'					=> 'Settings',
-	'ACP_STATS_ADDONS'							=> 'Add-Ons',
+	'ACP_STATS_INFO'							=> 'Statystyki',
+	'ACP_STATS_GENERAL_INFO'					=> 'Ustawienia',
+	'ACP_STATS_ADDONS'							=> 'Dodatki',
 ));
 
 ?>
