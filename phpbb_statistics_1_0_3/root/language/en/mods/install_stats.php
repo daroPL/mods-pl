@@ -22,22 +22,22 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'INSTALL_CONGRATS_EXPLAIN'		=> 	'<p>You have succesfully installed phpBB Statistics v%s<br/><br/><strong>Now delete, move or rename the "install"-folder before you use your board. As long as this directory is present, you will only have access to your ACP.</strong></p>',
-	'INSTALL_INTRO_BODY'			=> 	'This installation system will guide you through installing phpBB Statistics to your phpBB forum.',
+	'INSTALL_CONGRATS_EXPLAIN'		=> 	'<p>Mod phpBB Statistics w wersji %s został zainstalowany<br/><br/><strong>Usuń, przenieś lub zmień nazwę katalogu "install" zanim użyjesz witryny. Inaczej pozostanie jedynie dostęp do panelu administracji.</strong></p>',
+	'INSTALL_INTRO_BODY'			=> 	'Ten system przeprowadzi Cię przez proces instalacji moda phpBB Statistics na Twojej witrynie phpBB.',
 
 	'MISSING_CONSTANTS'			=> 	'Prior to run the install script, you have to upload the edited files, especially /includes/constants.php.',
-	'MODULES_CREATE_PARENT'		=> 	'Create parent standard module',
-	'MODULES_PARENT_SELECT'		=> 	'Select parent module',
+	'MODULES_CREATE_PARENT'		=> 	'Utwórz zwykły moduł nadrzędny',
+	'MODULES_PARENT_SELECT'		=> 	'Wybierz moduł nadrzędny',
 	'MODULES_SELECT_4ACP'		=> 	'Parent module for the ACP',
-	'MODULES_SELECT_NONE'		=> 	'No parent module',
+	'MODULES_SELECT_NONE'		=> 	'Brak modułu nadrzędnego',
 
 	'STAGE_ADVANCED_EXPLAIN'        =>  'The phpBB Statistics modules will now be created.',
 	'STAGE_CREATE_TABLE_EXPLAIN'	=> 	'The phpBB Statistics database tables have been created and initialized with basic values. Proceed to the next step to finish the phpBB Statistics installation.',
 	'STAGE_ADVANCED_IN_PROGRESS'	=> 	'The BBCode and Smilies in your posts are being counted. This might take a while and the page will refresh itself every 5 seconds.<br />Please be patient and let the script finish.',
 	'STAGE_ADVANCED_SUCCESSFUL'		=> 	'The phpBB Statistics modules have been created. Proceed to finish the phpBB Statistics installation.',
-	'STAGE_UNINSTALL'				=> 	'Uninstall',
+	'STAGE_UNINSTALL'				=> 	'Odinstaluj',
 
-	'FILES_EXISTS'				=> 	'File still exists',
+	'FILES_EXISTS'				=> 	'Plik nadal istnieje',
 	'FILES_OUTDATED'			=> 	'Out-of-date files',
 	'FILES_OUTDATED_EXPLAIN'	=> 	'<strong>Out-of-date files</strong> - please delete these files to avoid security issues.',
 	'FILES_CHANGE'				=> 	'File has been changed in the current release',
