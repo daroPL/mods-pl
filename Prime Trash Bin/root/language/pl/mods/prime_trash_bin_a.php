@@ -41,26 +41,26 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	// General
-	'PRIME_DELETED'					=> 'Usunięte',
+	'PRIME_DELETED'					=> 'Usunięty',
 	'PRIME_DELETED_FROM'			=> 'z',
 	'PRIME_DELETED_BY'				=> 'przez',
 	'PRIME_DELETED_ON'				=> '',
 
 	// Deleted Topic
-	'PRIME_TOPIC_DELETED_TITLE'		=> '[Usunięte]',
+	'PRIME_TOPIC_DELETED_TITLE'		=> '[Usunięty]',
 	'PRIME_TOPIC_DELETED_TITLE_SEP'	=> ' ', // Separator between PRIME_TOPIC_DELETED_TITLE and the topic title (only displayed if topic title is displayed)
 	'PRIME_TOPIC_DELETED_MSG'		=> 'Ten temat został usunięty',
 	'PRIME_TOPIC_UNDELETE'			=> 'Przywróć ten temat',
 	'PRIME_TOPIC_DELETE_FOREVER'	=> 'Trwale usuń ten temat',
 
 	// Deleted Post
-	'PRIME_POST_DELETED_REASON'		=> 'Powód do usunięcia',
-	'PRIME_POST_DELETED_TITLE'		=> '[Usunięte]',
+	'PRIME_POST_DELETED_REASON'		=> 'Powód usunięcia',
+	'PRIME_POST_DELETED_TITLE'		=> '[Usunięty]',
 	'PRIME_POST_DELETED_TITLE_SEP'	=> ' ', // Separator between PRIME_POST_DELETED_TITLE and the post subject (only displayed if post subject is displayed)
 	'PRIME_POST_DELETED_MSG'		=> 'Ten post został usunięty',
 	'PRIME_POST_UNDELETE'			=> 'Przywróć ten post',
 	'PRIME_POST_DELETE_FOREVER'		=> 'Trwale usuń ten post',
-	'PRIME_VIEW_DELETED_POST'		=> 'Zobacz treść posta',
+	'PRIME_VIEW_DELETED_POST'		=> 'Zobacz treść postu',
 	'PRIME_HIDE_DELETED_POST'		=> 'Ukryj tę wiadomość',
 
 	//Quickmod
