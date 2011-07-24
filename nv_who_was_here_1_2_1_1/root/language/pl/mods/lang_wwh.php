@@ -19,56 +19,56 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 // for the normal sites
-	'WHO_WAS_HERE'					=> 'Who was here?',
+	'WHO_WAS_HERE'					=> 'Kto tu był?',
 	'WHO_WAS_HERE_LATEST1'			=> 'last at',
 	'WHO_WAS_HERE_LATEST2'			=> '',//used for parts like o'clock in the timedisplay (last at vw:xy "o'clock")
 
 	'WHO_WAS_HERE_TOTAL'			=> array(
-		0		=> 'In total there were <strong>0</strong> users online :: ',
-		1		=> 'In total there was <strong>%d</strong> user online :: ',
-		2		=> 'In total there were <strong>%d</strong> users online :: ',
+		0		=> 'Zalogowanych użytkowników: <strong>0</strong> :: ',
+		1		=> 'Zalogowanych użytkowników: <strong>%d</strong> :: ',
+		2		=> 'Zalogowanych użytkowników: <strong>%d</strong> :: ',
 	),
 	'WHO_WAS_HERE_REG_USERS'		=> array(
-		0		=> '0 registered',
-		1		=> '%d registered',
-		2		=> '%d registered',
+		0		=> 'Zarejestrowani: 0',
+		1		=> 'Zarejestrowani: %d',
+		2		=> 'Zarejestrowani: %d',
 	),
 	'WHO_WAS_HERE_HIDDEN'			=> array(
-		0		=> '0 hidden',
-		1		=> '%d hidden',
-		2		=> '%d hidden',
+		0		=> 'Ukryci: 0',
+		1		=> 'Ukryci: %d',
+		2		=> 'Ukryci: %d',
 	),
 	'WHO_WAS_HERE_BOTS'				=> array(
-		0		=> '0 bots',
-		1		=> '%d bot',
-		2		=> '%d bots',
+		0		=> 'Boty: 0',
+		1		=> 'Boty: %d',
+		2		=> 'Boty: %d',
 	),
 	'WHO_WAS_HERE_GUESTS'			=> array(
-		0		=> '0 guests',
-		1		=> '%d guest',
-		2		=> '%d guests',
+		0		=> 'Goście: 0',
+		1		=> 'Goście: %d',
+		2		=> 'Goście: %d',
 	),
 
-	'WHO_WAS_HERE_WORD'				=> ' and',
-	'WHO_WAS_HERE_EXP'				=> 'based on users active today',
-	'WHO_WAS_HERE_EXP_TIME'			=> 'based on users active over the past ',
+	'WHO_WAS_HERE_WORD'				=> ' i',
+	'WHO_WAS_HERE_EXP'				=> 'uwzględnia użytkowników aktywnych dzisiaj',
+	'WHO_WAS_HERE_EXP_TIME'			=> 'uwzględnia użytkowników aktywnych wciągu ',
 	'WWH_HOURS'						=> array(
 		0		=> '',
-		1		=> '%%s %1$s hour',
-		2		=> '%%s %1$s hours',
+		1		=> 'ostatniej %%s %1$s godziny',
+		2		=> 'ostatnich %%s %1$s godzin',
 	),
 	'WWH_MINUTES'					=> array(
 		0		=> '',
-		1		=> '%%s %1$s minute',
-		2		=> '%%s %1$s minutes',
+		1		=> 'ostatniej %%s %1$s minuty',
+		2		=> 'ostatnich %%s %1$s minut',
 	),
 	'WWH_SECONDS'					=> array(
 		0		=> '',
-		1		=> '%%s %1$s second',
-		2		=> '%%s %1$s seconds',
+		1		=> 'ostatniej %%s %1$s sekundy',
+		2		=> 'ostatnich %%s %1$s sekund',
 	),
-	'WHO_WAS_HERE_RECORD'			=> 'Most users ever online was <strong>%1$s</strong> on %2$s',
-	'WHO_WAS_HERE_RECORD_TIME'		=> 'Most users ever online was <strong>%1$s</strong> between %2$s and %3$s',
+	'WHO_WAS_HERE_RECORD'			=> 'Największa liczba użytkowników: <strong>%1$s</strong>, dnia %2$s',
+	'WHO_WAS_HERE_RECORD_TIME'		=> 'Największa liczba użytkowników: <strong>%1$s</strong> pomiędzy %2$s, a %3$s',
 ));
 
 ?>
