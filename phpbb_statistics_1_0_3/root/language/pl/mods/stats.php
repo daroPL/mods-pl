@@ -22,8 +22,8 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(	
 	'STATS'								=> 'Statystyki witryny',	
 	'STATS_EXPLAIN'						=> 'Otwórz statystyki witryny',
-	'STATS_BASIC'						=> 'Podstawowe',
-	'STATS_BASIC_BASIC'					=> 'Indeks',
+	'STATS_BASIC'						=> 'Indeks',
+	'STATS_BASIC_BASIC'					=> 'Podstawowe',
 	'STATS_BASIC_ADVANCED'				=> 'Zaawansowane',
 	'STATS_BASIC_MISCELLANEOUS'			=> 'Różne',
 	'STATS_ACTIVITY'					=> 'Aktywność',
